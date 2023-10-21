@@ -1,0 +1,102 @@
+body {
+    font-family: cursive;
+    margin: 0 auto;
+    width: 90%;
+}
+
+header {
+    background-image: linear-gradient(red, white);
+}
+
+nav {
+    margin: 10px 0;
+    padding: 5px 0;
+}
+
+footer {
+    padding: 8px 0;
+    text-align: center;
+    background-image: linear-gradient(red, white);
+}
+
+.main {
+    margin: 25px 0;
+}
+
+.font-family-cursive {
+    font-family:  'Brush Script MT', cursive;
+}
+
+.flex {
+    display: flex;
+}
+
+.text-align-justify {
+    text-align: justify;
+}
+
+.text-align-right {
+    text-align: right;
+}
+
+.vertical-align-top {
+    vertical-align: top;
+}
+
+.pd-rt-20 {
+    padding-right: 20px;
+}
+
+.justify-content-evenly {
+    justify-content: space-evenly;
+}
+
+.justify-content-space-between {
+    justify-content: space-between;
+}
+
+.name div {
+    font-size: 4em;
+    font-weight: bold;
+}
+
+.name h5 {
+    margin: 0;
+}
+
+.nav-item {
+    width: 33%;
+}
+
+.left {
+    width: 68%;
+}
+
+.left .intro article {
+    text-align: justify;
+}
+
+.left .education table {
+    width: 100%;
+    font-weight: bold;
+}
+
+.right {
+    width: 28%;
+}
+
+.right img {
+    max-width: 100%;
+}
+
+
+@media screen and (max-width: 768px) {
+    /* For mobile phones */
+    .flex {
+        flex-direction: column-reverse;
+    }
+
+    section, aside {
+        width: 100%;
+    }
+}

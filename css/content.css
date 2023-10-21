@@ -1,0 +1,119 @@
+body {
+    font-family: cursive;
+    margin: 0 auto;
+}
+
+nav {
+    margin: 10px 0;
+    padding: 5px 0;
+}
+
+footer {
+    padding: 8px 0;
+    text-align: center;
+}
+
+.main {
+    margin: 25px;
+}
+
+.font-family-cursive {
+    font-family:  'Brush Script MT', cursive;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-direction-column {
+    flex-direction: column;
+}
+
+.text-align-justify {
+    text-align: justify;
+}
+
+.text-align-right {
+    text-align: right;
+}
+
+.vertical-align-top {
+    vertical-align: top;
+}
+
+.pd-rt-20 {
+    padding-right: 20px;
+}
+
+.justify-content-evenly {
+    justify-content: space-evenly;
+}
+
+.name div {
+    font-size: 4em;
+    font-weight: bold;
+}
+
+.name h5 {
+    margin: 0;
+}
+
+.nav-item {
+    width: 33%;
+}
+
+.left {
+    width: 30%;
+}
+
+.right {
+    width: 70%;
+}
+
+
+.right .experience table {
+    width: 100%;
+    font-weight: bold;
+}
+
+.container {
+    position: relative;
+    width: 30%;
+    padding: 20px;
+}
+  
+.image {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #dc143c;
+}
+  
+.container:hover .overlay {
+    opacity: 0.8;
+}
+  
+.text {
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
